@@ -65,12 +65,12 @@
     </repository>
   </repositories>
   <properties>
-    <bioformats.version>6.0.1</bioformats.version>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.build.timestamp.format>d MMMMM yyyy</maven.build.timestamp.format>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <logback.version>1.1.1</logback.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <bioformats.version>6.0.1</bioformats.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.build.timestamp.format>d MMMMM yyyy</maven.build.timestamp.format>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 </project>

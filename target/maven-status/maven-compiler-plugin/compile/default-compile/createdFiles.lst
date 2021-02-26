@@ -1,1 +1,9 @@
 META-INF/json/org.scijava.plugin.Plugin
+unirioja/spheroidj_colageno/DetectSpheroidMethods.class
+unirioja/spheroidj_colageno/SpheroidJColagenoSingle_.class
+unirioja/spheroidj_colageno/SpheroidJColageno_.class
+unirioja/spheroidj_colageno/AnalyseParticleMethods.class
+unirioja/spheroidj_colageno/DetectSpheroidImageMethods.class
+unirioja/spheroidj_colageno/ExportToExcel.class
+unirioja/spheroidj_colageno/SearchFilesMethods.class
+unirioja/spheroidj_colageno/Utils.class

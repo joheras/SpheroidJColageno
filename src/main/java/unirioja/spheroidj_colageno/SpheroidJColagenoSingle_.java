@@ -22,7 +22,7 @@ import ij.measure.ResultsTable;
 import ij.plugin.ChannelSplitter;
 import loci.plugins.in.ImporterOptions;
 
-@Plugin(type = Command.class, headless = true, menuPath = "Plugins>SpheroidJColageno>Single")
+
 public class SpheroidJColagenoSingle_ implements Command {
 
 	@Parameter(callback = "prominenceChanged", style = "slider", min = "0", max = "100")

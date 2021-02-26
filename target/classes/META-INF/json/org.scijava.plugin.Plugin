@@ -1,1 +1,1 @@
-{"class":"unirioja.spheroidj_colageno.SpheroidJColagenoSingle_","values":{"headless":true,"menuPath":"Plugins>SpheroidJColageno>Single","type":"org.scijava.command.Command"}}{"class":"unirioja.spheroidj_colageno.SpheroidJColageno_","values":{"headless":true,"menuPath":"Plugins>SpheroidJColageno>Main","type":"org.scijava.command.Command"}}
+{"class":"unirioja.spheroidj_colageno.SpheroidJColageno_","values":{"headless":true,"menuPath":"Plugins>SpheroidJColageno","type":"org.scijava.command.Command"}}

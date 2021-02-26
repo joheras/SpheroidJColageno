@@ -2,6 +2,7 @@ package unirioja.spheroidj_colageno;
 
 import java.awt.Polygon;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -277,6 +278,7 @@ public class Utils {
 					rt.addValue("# of cells", fp.npoints);
 					rt.addValue("Mean distance of cells", findMean(distances, fp.npoints));
 					rt.addValue("Median distance of cells", findMedian(distances, fp.npoints));
+					saveDistances(distances,name);
 
 				}else {
 					System.out.println(name);
@@ -289,6 +291,29 @@ public class Utils {
 
 		}
 
+	}
+
+	private static void saveDistances(double[] distances, String name) {
+		
+		try {
+			FileWriter writer = new FileWriter(name+".csv");
+			writer.append("Distances");
+		    writer.append("\n");
+			for (int j = 1; j < distances.length; j++) {
+			    writer.append(String.valueOf(distances[j]));
+			    writer.append("\n");
+			}
+			writer.close();
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
 	}
 
 	// Function for calculating mean

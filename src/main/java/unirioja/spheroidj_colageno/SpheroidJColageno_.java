@@ -20,7 +20,7 @@ import ij.ImagePlus;
 import ij.measure.ResultsTable;
 import loci.plugins.in.ImporterOptions;
 
-@Plugin(type = Command.class, headless = true, menuPath = "Plugins>SpheroidJColageno>Main")
+@Plugin(type = Command.class, headless = true, menuPath = "Plugins>SpheroidJColageno")
 public class SpheroidJColageno_ implements Command {
 
 	@Parameter(label = "Fix the scale")
